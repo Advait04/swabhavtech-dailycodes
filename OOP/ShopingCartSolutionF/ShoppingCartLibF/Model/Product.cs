@@ -59,5 +59,9 @@ namespace ShoppingCartLibF.Model
                 return _discount;
             }
         }
+        public double GetDiscountedPrice()
+        {
+            return _price - ((_price * _discount) / 100);
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace SecurityApp
             try
             {
                 SecurityService service = new SecurityService();
-                PrintDetails(service.Login("", ""));
+                PrintDetails(service.Login("101", "@101"));
             }
             catch (InvalidUserException ex)
             {

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDictApp", "GenericDictApp\GenericDictApp.csproj", "{F398347F-8523-4D19-99FC-688237FEDDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F398347F-8523-4D19-99FC-688237FEDDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F398347F-8523-4D19-99FC-688237FEDDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F398347F-8523-4D19-99FC-688237FEDDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F398347F-8523-4D19-99FC-688237FEDDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B67F5824-7D5D-4711-8E26-A4B75C2BF03F}
+	EndGlobalSection
+EndGlobal

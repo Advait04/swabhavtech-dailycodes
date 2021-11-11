@@ -53,7 +53,7 @@ namespace ShoppingCartLibTest
             Order order = new Order(101, new DateTime(2021, 11, 10));
             order.AddItems(new LineItem(101, new Product(1, "Books", 350, 10), 2));
             order.AddItems(new LineItem(102, new Product(2, "Mobile", 20000, 90), 1));
-            Assert.AreEqual<double>(2700, order.TotalOrderPrice());
+            Assert.AreEqual<double>(2630, order.TotalOrderPrice());
         }
     }
 }

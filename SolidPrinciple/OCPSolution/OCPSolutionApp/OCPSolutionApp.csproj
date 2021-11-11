@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82B98703-AE85-478D-BE30-670034275368}</ProjectGuid>
+    <ProjectGuid>{04A03E57-4590-4618-9348-906C48913403}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleShoppingCartApp</RootNamespace>
-    <AssemblyName>ConsoleShoppingCartApp</AssemblyName>
+    <RootNamespace>OCPSolutionApp</RootNamespace>
+    <AssemblyName>OCPSolutionApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client\DiwaliFestivaalPolicy.cs" />
+    <Compile Include="Client\EIDFestivalPolicy.cs" />
+    <Compile Include="Client\NewYearFestivalPolicy.cs" />
+    <Compile Include="Client\NormalFestivalPolicy.cs" />
+    <Compile Include="Lib\FixedDeposit.cs" />
+    <Compile Include="Lib\IFestivalPolicy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ShoppingCartLibF\ShoppingCartLibF.csproj">
-      <Project>{D212739F-FD25-4278-A575-CE9F8BA2DAA9}</Project>
-      <Name>ShoppingCartLibF</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPViolationApp", "OCPViolationApp\OCPViolationApp.csproj", "{1D7BE024-EA72-45DE-B8CF-9EFE0F739127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPSolutionApp", "OCPSolutionApp\OCPSolutionApp.csproj", "{04A03E57-4590-4618-9348-906C48913403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7BE024-EA72-45DE-B8CF-9EFE0F739127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7BE024-EA72-45DE-B8CF-9EFE0F739127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7BE024-EA72-45DE-B8CF-9EFE0F739127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7BE024-EA72-45DE-B8CF-9EFE0F739127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A03E57-4590-4618-9348-906C48913403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A03E57-4590-4618-9348-906C48913403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A03E57-4590-4618-9348-906C48913403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A03E57-4590-4618-9348-906C48913403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E05366B7-8749-4517-A446-F8AEA45862F7}
+	EndGlobalSection
+EndGlobal

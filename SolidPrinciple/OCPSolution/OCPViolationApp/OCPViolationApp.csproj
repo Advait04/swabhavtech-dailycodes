@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82B98703-AE85-478D-BE30-670034275368}</ProjectGuid>
+    <ProjectGuid>{1D7BE024-EA72-45DE-B8CF-9EFE0F739127}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleShoppingCartApp</RootNamespace>
-    <AssemblyName>ConsoleShoppingCartApp</AssemblyName>
+    <RootNamespace>OCPViolationApp</RootNamespace>
+    <AssemblyName>OCPViolationApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FestivalType.cs" />
+    <Compile Include="FixedDeposit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ShoppingCartLibF\ShoppingCartLibF.csproj">
-      <Project>{D212739F-FD25-4278-A575-CE9F8BA2DAA9}</Project>
-      <Name>ShoppingCartLibF</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

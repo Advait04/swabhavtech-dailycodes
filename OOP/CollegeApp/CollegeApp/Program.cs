@@ -9,6 +9,14 @@ namespace CollegeApp
     {
         static void Main(string[] args)
         {
+            CaseStudy1();
         }
+        
+        public static void CaseStudy1()
+        {
+            
+        }
+        }
+
     }
 }

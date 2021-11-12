@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LspViolationApp", "LspViolationApp\LspViolationApp.csproj", "{1687773C-6511-46B9-B8DA-2C65AD88C48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LspSolutionApp", "LspSolutionApp\LspSolutionApp.csproj", "{4DCED316-36B8-49AE-AC7A-F5938757C6FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1687773C-6511-46B9-B8DA-2C65AD88C48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1687773C-6511-46B9-B8DA-2C65AD88C48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1687773C-6511-46B9-B8DA-2C65AD88C48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1687773C-6511-46B9-B8DA-2C65AD88C48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCED316-36B8-49AE-AC7A-F5938757C6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCED316-36B8-49AE-AC7A-F5938757C6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCED316-36B8-49AE-AC7A-F5938757C6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCED316-36B8-49AE-AC7A-F5938757C6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F207D2C1-680C-439D-900B-47DDF8EB4387}
+	EndGlobalSection
+EndGlobal

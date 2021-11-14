@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspViolationApp", "IspViolationApp\IspViolationApp.csproj", "{050F8184-5E36-481E-B1FE-65396B34F874}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{050F8184-5E36-481E-B1FE-65396B34F874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050F8184-5E36-481E-B1FE-65396B34F874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050F8184-5E36-481E-B1FE-65396B34F874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050F8184-5E36-481E-B1FE-65396B34F874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54345BDA-1669-4697-916A-D07ECBA33214}
+	EndGlobalSection
+EndGlobal

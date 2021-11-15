@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashCodeCheckTest", "HashCodeCheckTest\HashCodeCheckTest.csproj", "{B3555C13-93EF-42C4-867C-36E035112C48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3555C13-93EF-42C4-867C-36E035112C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3555C13-93EF-42C4-867C-36E035112C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3555C13-93EF-42C4-867C-36E035112C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3555C13-93EF-42C4-867C-36E035112C48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {929E2A9F-3B40-4D84-8387-F326A8450122}
+	EndGlobalSection
+EndGlobal

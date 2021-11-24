@@ -14,6 +14,7 @@ namespace TictacToeCore.Test
             Assert.AreEqual<bool>(true,cell.isEmpty());
 
         }
+
         [TestMethod]
         public void Test_CellGettingMarked()
         {
@@ -32,11 +33,12 @@ namespace TictacToeCore.Test
                 cell.MarkCell(MarkType.O);
                 Assert.Fail();
             }
-            catch(Exception)
+            catch (Exception)
             {
-                
+
 
             }
+
         }
     }
 }

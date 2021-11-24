@@ -14,25 +14,27 @@ namespace TicTacToeCore
         {
             _mark = MarkType.EMPTY;
         }
-        public MarkType Mark
-        {
-            get
-            {
-                return _mark;
-            }
-        }
+        
         public void MarkCell(MarkType mark)
         {
             if(!this.isEmpty())
             {
                 throw new Exception("Cell Is Already Marked");
             }
+            _mark = mark;
         }
         public bool isEmpty()
         {
             if (_mark == MarkType.EMPTY) return true;
          
             return false;
+        }
+        public MarkType Mark
+        {
+            get
+            {
+                return _mark;
+            }
         }
     }
 }

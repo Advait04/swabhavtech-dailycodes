@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="js/toDo.js"></script>
+    <style> 
+    *{
+            font-family: Georgia, serif;
+    }
+    .mainContainer{
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 20px;;
+        width: 500px;
+        height: 500px;
+    }
+    .header{
+        margin: auto;
+        text-align: center;
+    }
+    .addItem{
+        margin-left: 50px;
+    }
+    .displayBox{
+        margin: auto;
+        margin-top: 50px;
+        border: 2px solid black;
+        border-radius: 15px;;
+        width: 420px;
+        height: 340px;
+    }
+    </style>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <h3>ToDoApp </h3>
+        </div>
+        <span class="addItem">Item : <input type="text" class="item"></span>
+        <button id="addButton">Add</button>
+        <div class="displayBox">
+        </div>
+    </div>
+</body>
+
+</html>

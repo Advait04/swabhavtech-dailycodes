@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<script>
+    f1();
+     function f1()
+     {
+         'use strict'
+         console.log("Inside f1,function Statement")
+         for (var counter=0;counter<10;counter++)
+         {
+             console.log("counter value is "+counter);
+         }
+         console.log("outside For Counter:"+counter)
+        }
+        // console.log("After f1,counter is"+counter);
+        //f2()
+        var f2=function()
+        {
+            console.log("inside f2,function expression");
+        }
+        f2();
+     
+</script>
+</body>
+</html>

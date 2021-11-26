@@ -1,0 +1,65 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+
+<script>
+    var s1 = {name:"Advait",cgpa:7.5}
+    
+
+    console.log(s1.name)
+    console.log(s1["name"])
+    console.log(s1["cgpa"]);
+
+    localStorage["aurionpro.student"]=s1;
+    console.log(localStorage["aurionpro.student"]);
+    localStorage["aurion.student"]=JSON.stringify(s1);
+    console.log(localStorage["aurionpro.student"]);
+
+    var s2=JSON.parse(localStorage["aurionpro.student"]);
+    s2.location="Mumbai";
+    console.log(s2);
+
+    var students=[{name:"Advait",cgpa:8.0,location:"Mumbai"},
+                  {name:"vallabh",cgpa:7.8,location:"Solapur"},
+                  {name:"Yogeshwar",cgpa:8.2,location:"Nashik"},
+                  {name:"Arati",cgpa:8.9,location:"Pune"},
+                  {name:"Rohit",cgpa:7.5,location:"Mumbai"},]
+
+    localStorage["student.info"]=JSON.stringify(students);
+    console.log(localStorage["student.info"]);
+    console.log("Student Residing In Mumbai: ");
+    students.forEach(element => {
+        if(element.location == "Mumbai")
+        {
+            console.log("Name:"+element.name);
+        }
+    });
+
+    console.log("Student With CGPA greater than 7:");
+    students.forEach(element =>
+    {
+        if(element.cgpa>7)
+        {
+            console.log("name:"+element.name);
+            console.log("cgpa:"+element.cgpa)
+
+        }
+    });
+
+    console.log("Students With Long Name:");
+    students.forEach(element =>{
+        if(element.name.length > 7)
+        {
+            console.log("name:"+element.name);
+        }
+    });
+</script>
+</body>
+</html>

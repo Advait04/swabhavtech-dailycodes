@@ -1,4 +1,5 @@
-window.onload=function(){
+window.onload=function()
+{
     var addButton = document.querySelector("#addButton");
     console.log(addButton);
     var toDoItems = [];
@@ -9,7 +10,8 @@ window.onload=function(){
         toDoItems.push(item.value);
         var displayBox = document.querySelector(".displayBox");
         var displayString= "<ol>";
-        for(let i=0;i<toDoItems.length;i++){
+        for(let i=0;i<toDoItems.length;i++)
+        {
             displayString=displayString+"<li>"+toDoItems[i]+"</li>";
         }
         displayString +="</ol>";

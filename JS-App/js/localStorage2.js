@@ -1,6 +1,6 @@
 function funCall()
 {
-    var s1={name:"Arati",cgpa:7.5,location:"mumbai"}
+    var s1={name:"Advait",cgpa:8.5,location:"mumbai"}
             console.log(s1.name);
             console.log(s1["name"]) //property syntex
             console.log(s1['cgpa']);
@@ -13,44 +13,44 @@ function funCall()
            
             console.log(s1);
     var student=[{
-        name:"Arati",
-        cgpa:8.5,
-        location:"mumbai"
+        name:"Advait",
+        cgpa:7.5,
+        location:"Mumbai"
         },
         {
-         name:"Pooja",
-         cgpa:7.5,
-         location:"mumbai"
+         name:"Aditya",
+         cgpa:8.5,
+         location:"Jaipur"
         },   
         {
-        name:"Seema",
+        name:"Rohit",
         cgpa:6.8,
-        location:"pune"
+        location:"Mumbai"
         },
         {
-        name:"Komal",
+        name:"Virat",
         cgpa:6.9,
-        location:"US"
+        location:"Banglore"
         },
         {
-        name:"kajal",
+        name:"KL",
         cgpa:9.4,
-        location:"kolhapur"
+        location:"Banglore"
         }];
     var html="<table border='1|1'>"
 
             localStorage["aurionpro.student"] = JSON.stringify(student);
             console.log(localStorage["aurionpro.student"]);
-            console.log("student with city in mumbai:");
+            console.log("Student Residing In Mumbai");
             student.forEach(element =>{
-                if(element.location == "mumbai")
+                if(element.location == "Mumbai")
                 {
                     console.log("name:"+element.name);
                 }
 
             });
 
-            console.log("students with cgpa greater than 7:");
+            console.log("Students With With CGPA Greater Than 7");
             student.forEach(element => {
                 if(element.cgpa > 7){
                     console.log("name:"+element.name);
@@ -58,7 +58,7 @@ function funCall()
                 }
             });
 
-            console.log("students who having long name:");
+            console.log("Students Having Long Name:");
             student.forEach(element => {
                 if(element.name.length > 7)
                 {

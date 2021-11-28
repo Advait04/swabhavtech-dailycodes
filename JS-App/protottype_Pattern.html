@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Prototype PAttern</h1>
+</body>
+<script>
+  function Customer(id,name)
+  {
+      this.id=id;
+      this.name=name;
+  }
+  Customer.prototype.getDetails = function()
+  {
+      return "Id:"+this.id+"Name:"+this.name
+  }
+
+  var advait = new Customer(101,"Advait");
+  var rahul = new Customer(102,"Rahul");
+  setTimeout(Customer.prototype.getDetails,20000);
+  console.log(advait.getDetails())
+  console.log(rahul.getDetails())
+  
+  console.log(advait.__proto__ == rahul.__proto__)
+  console.log(Customer.prototype == advait.__proto__)
+
+  console.log(Customer.prototype.__proto__ == Object.prototype)
+
+  var obj1 = {}
+  var obj2  ={}
+
+  console.log(obj1.__proto__ == Object.prototype)
+
+  Object.proto.foo = function(name)
+  {
+      console.log("Hey I AM Foo inside object prototype"+name);
+      
+  }
+
+  obj1.foo("obj1");
+  obj2.foo("obj2");
+  sachin.foo("sachin");
+</script>
+</html>

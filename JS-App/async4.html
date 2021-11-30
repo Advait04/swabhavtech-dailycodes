@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    function doTAsk(no)
+    {
+        return new Promise(function(fnresolve,fnreject)
+        { //Promise<Object>,promisfying a function 
+            console.log("inside Promise Method")
+              //sync
+
+              var result = Math.random()*no //rest api call
+              console.log(result)
+              if(result>5)
+              fnresolve({msg:"Success",data:result}) //async
+              else
+              fnreject({msg:"ERROR Happened"})   //async
+        })
+    }
+
+    doTAsk(10)
+    .then(function(r)
+    {
+      console.log(r)
+      return r.data
+    }) //call me back when promise is resolved
+
+.then (function(data)
+{
+console.log("Inside Second Then Method")
+console.log(data)
+})
+
+.catch(function(err)
+{
+console.log(err)
+})
+
+console.log("End Of Program");
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+   function doTask(no)
+   {
+       var result = Math.random()*no
+       if(result > 5)
+       {
+           return {msg:"Success",data:result}
+       }
+       return {msg:"error"}
+   }
+   var result = doTask(10)
+   console.log(result)
+   console.log("End Of Program");
+</script>
+</html>

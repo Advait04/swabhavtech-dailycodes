@@ -1,0 +1,9 @@
+<div class="big">
+    <div class="small" *ngFor="let i of balls" (click)="ballClicked(i)"
+    [style.background-color]="'grey'" id ="ball{{i}}">
+    <p>ball {{i}}</p>
+</div>
+<br>
+<label>{{gameStatus}}</label><br> <br>
+<button (click)="refresh()">Play Again</button>
+</div>

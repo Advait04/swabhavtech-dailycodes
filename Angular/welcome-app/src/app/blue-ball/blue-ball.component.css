@@ -1,0 +1,17 @@
+.first,.second
+{
+    text-align:center;
+}
+
+button
+{
+background-color: seagreen;
+color:black;
+border-radius: 20px;
+padding: 10px;
+}
+
+.yo
+{
+    padding: top 30px;
+}

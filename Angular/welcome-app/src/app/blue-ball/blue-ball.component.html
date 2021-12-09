@@ -1,0 +1,23 @@
+<div *ngif="!gameStarted">
+    <div class ="first">
+    <h1>Blue Ball Game</h1>
+    <h3>RULES</h3>
+    <h4>
+        1- Select Number Of Balls From 10-50 <br>
+        2- Timelimit To Guess  A Ball is 1 Minute <br>
+        3- Player Will Get 4 Chances To Guess The Right BAll
+    </h4>
+</div>
+<div class="second">
+    <h3> Select Balls</h3>
+    <div class = "slidecontainer">
+        <input type ="range" min="10" max="50" class ="slider"  [(ngModel)]="slideValue">
+    </div>
+
+<div>
+<h4 class="yo">Number Of BAlls:{{slideValue}}</h4>
+<button (click)=startGame()>Start Game</button>
+</div>
+</div>
+</div>
+<sw-circle *ngif="gameStarted" [sliderValue]="slideValue"></sw-circle>

@@ -11,6 +11,11 @@ import { StudentComponent } from './student/student.component';
 import { SnakePipe } from './snake.pipe';
 import { BlueBallComponent } from './blue-ball/blue-ball.component';
 import { CircleComponent } from './circle/circle.component';
+import { ProductItemComponent } from './products/product-item.component';
+import { ProductListComponent } from './products/product-list.component';
+import { ProductService } from './products/product.service';
+import { FormsModule } from '@angular/forms';
+import { TwowayBindingComponent } from './twoway-binding/twoway-binding.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +28,16 @@ import { CircleComponent } from './circle/circle.component';
     StudentComponent,
     SnakePipe,
     BlueBallComponent,
-    CircleComponent
+    CircleComponent,
+    ProductItemComponent,
+    ProductListComponent,
+    TwowayBindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,FormsModule
+    
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [WelcomeComponent]
 })
 export class AppModule { }

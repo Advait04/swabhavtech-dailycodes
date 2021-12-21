@@ -1,0 +1,27 @@
+<div>
+One way using binding expression {{salary}}
+<br/>
+One way binding<input type="number" [value]="salary"/>
+<br/>
+Two way binding(Model To View And View To Model )
+<input type="number" [(ngModel)]="salary"/>
+
+<br/>
+<p>Please select your favorite Web language:</p>
+  <input type="radio"  name="fav_language" value="HTML" 
+[(ngModel)]="favLanguage">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css"  name="fav_language" 
+
+[(ngModel)]="favLanguage"
+
+value="CSS">
+  <label for="css">CSS</label><br>
+  
+<input type="radio" id="javascript" name="fav_language" [(ngModel)]="favLanguage" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+
+<br/>
+<b> {{favLanguage}} </b>
+
+</div> 
